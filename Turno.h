@@ -9,5 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface Turno : NSObject
+@property(nonatomic, assign) NSInteger label;
+@property(nonatomic, assign) NSInteger taps;
++(instancetype) turnoWithLabel:(NSInteger)turnoLabel taps:(NSInteger)turnoTaps;
 
 @end

@@ -10,4 +10,10 @@
 
 @implementation NSNumber (RandomNumber)
 
++ (instancetype)randomBetween:(int)from and:(int)to
+{
+    int num =(int)from + arc4random() % (to-from+1);
+    return @(num);
+}
+
 @end

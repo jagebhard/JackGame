@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Turno.h"
 
 @interface GameController : NSObject
-
+-(void)startGame;
+-(void)winTurno;
+@property (nonatomic, assign) NSTimeInterval timeInterval;
+@property (nonatomic, strong) Turno *turno;
+@property (nonatomic, assign) long points;
 @end

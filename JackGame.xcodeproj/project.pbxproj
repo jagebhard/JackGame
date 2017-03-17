@@ -13,6 +13,9 @@
 		77029A641E4D4E2100E3B74C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77029A621E4D4E2100E3B74C /* Main.storyboard */; };
 		77029A661E4D4E2100E3B74C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77029A651E4D4E2100E3B74C /* Assets.xcassets */; };
 		77029A691E4D4E2100E3B74C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77029A671E4D4E2100E3B74C /* LaunchScreen.storyboard */; };
+		773B010A1E5CA90B000805D1 /* NSNumber+RandomNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 773B01091E5CA90B000805D1 /* NSNumber+RandomNumber.m */; };
+		77DAF1B71E787E8A0026DCC3 /* Turno.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DAF1B61E787E8A0026DCC3 /* Turno.m */; };
+		77E02CD71E6F599C00F2505E /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E02CD61E6F599C00F2505E /* GameController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		77029A651E4D4E2100E3B74C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77029A681E4D4E2100E3B74C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77029A6A1E4D4E2100E3B74C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		773B01081E5CA90B000805D1 /* NSNumber+RandomNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+RandomNumber.h"; sourceTree = "<group>"; };
+		773B01091E5CA90B000805D1 /* NSNumber+RandomNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+RandomNumber.m"; sourceTree = "<group>"; };
+		77DAF1B51E787E8A0026DCC3 /* Turno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Turno.h; path = ../Turno.h; sourceTree = "<group>"; };
+		77DAF1B61E787E8A0026DCC3 /* Turno.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Turno.m; path = ../Turno.m; sourceTree = "<group>"; };
+		77E02CD51E6F599C00F2505E /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		77E02CD61E6F599C00F2505E /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +67,16 @@
 		77029A581E4D4E2100E3B74C /* JackGame */ = {
 			isa = PBXGroup;
 			children = (
+				77DAF1B51E787E8A0026DCC3 /* Turno.h */,
+				77DAF1B61E787E8A0026DCC3 /* Turno.m */,
 				77029A5C1E4D4E2100E3B74C /* AppDelegate.h */,
+				77E02CD51E6F599C00F2505E /* GameController.h */,
+				77E02CD61E6F599C00F2505E /* GameController.m */,
 				77029A5D1E4D4E2100E3B74C /* AppDelegate.m */,
 				77029A5F1E4D4E2100E3B74C /* ViewController.h */,
 				77029A601E4D4E2100E3B74C /* ViewController.m */,
+				773B01081E5CA90B000805D1 /* NSNumber+RandomNumber.h */,
+				773B01091E5CA90B000805D1 /* NSNumber+RandomNumber.m */,
 				77029A621E4D4E2100E3B74C /* Main.storyboard */,
 				77029A651E4D4E2100E3B74C /* Assets.xcassets */,
 				77029A671E4D4E2100E3B74C /* LaunchScreen.storyboard */,
@@ -150,8 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77DAF1B71E787E8A0026DCC3 /* Turno.m in Sources */,
 				77029A611E4D4E2100E3B74C /* ViewController.m in Sources */,
+				773B010A1E5CA90B000805D1 /* NSNumber+RandomNumber.m in Sources */,
 				77029A5E1E4D4E2100E3B74C /* AppDelegate.m in Sources */,
+				77E02CD71E6F599C00F2505E /* GameController.m in Sources */,
 				77029A5B1E4D4E2100E3B74C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +325,7 @@
 				77029A6F1E4D4E2100E3B74C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

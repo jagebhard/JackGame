@@ -10,4 +10,6 @@
 
 @interface NSNumber (RandomNumber)
 
++ (instancetype)randomBetween:(int)vdgshvbdhsjvs and:(int)b;
+
 @end
